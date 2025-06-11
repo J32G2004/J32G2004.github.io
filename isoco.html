@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCO - Oxidación Química In Situ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Operaciones Unitarias</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="deshalogenacion.html">Deshalogenación</a></li>
+                <li><a href="neutralizacion.html">Neutralización</a></li>
+                <li><a href="lavado.html">Lavado</a></li>
+                <li><a href="enjuague.html">Enjuague</a></li>
+                <li><a href="isoco.html" class="active">ISCO</a></li>
+                <li><a href="casos-estudio.html">Casos de Estudio</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de Introducción -->
+    <section id="introduccion" class="section">
+        <div class="content">
+            <h1>ISCO - Oxidación Química In Situ</h1>
+            <h2>Tecnología de remediación química para la destrucción de contaminantes orgánicos</h2>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-atom"></i>
+                    <h3>Definición Técnica</h3>
+                    <p>La Oxidación Química In Situ (ISCO) es una operación unitaria que utiliza agentes oxidantes fuertes para degradar compuestos orgánicos peligrosos en el suelo y agua subterránea a compuestos inocuos o menos tóxicos.</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Mecanismo Principal</h3>
+                    <p>Transferencia de electrones desde el contaminante (dador) al agente oxidante (aceptor), generando reacciones de oxidación-reducción que destruyen la estructura molecular del contaminante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agentes Oxidantes -->
+    <section id="agentes" class="section highlight-section">
+        <div class="content">
+            <h2>Agentes Oxidantes Comunes</h2>
+            
+            <div class="info-cards">
+                <div class="technique">
+                    <i class="fas fa-radiation-alt"></i>
+                    <h3>Permanganato de Potasio (KMnO₄)</h3>
+                    <p>Efectivo contra compuestos clorados, incluyendo PCE y TCE. Estable en solución acuosa.</p>
+                    <div class="formula">
+                        C₂HCl₃ + 2KMnO₄ → 2CO₂ + 2MnO₂ + 2K⁺ + 3Cl⁻ + H⁺
+                    </div>
+                </div>
+                
+                <div class="technique">
+                    <i class="fas fa-flask"></i>
+                    <h3>Peróxido de Hidrógeno (H₂O₂) + Catalizador</h3>
+                    <p>Genera radicales hidroxilo (•OH) altamente reactivos. Conocido como proceso Fenton cuando se usa con hierro.</p>
+                    <div class="formula">
+                        Fe²⁺ + H₂O₂ → Fe³⁺ + •OH + OH⁻
+                    </div>
+                </div>
+                
+                <div class="technique">
+                    <i class="fas fa-burn"></i>
+                    <h3>Persulfato de Sodio (Na₂S₂O₈)</h3>
+                    <p>Se activa térmica o químicamente. Efectivo contra una amplia gama de COVs y COPs.</p>
+                    <div class="formula">
+                        S₂O₈²⁻ + calor/activador → 2SO₄•⁻
+                    </div>
+                </div>
+                
+                <div class="technique">
+                    <i class="fas fa-wind"></i>
+                    <h3>Ozono (O₃)</h3>
+                    <p>Potente oxidante que puede inyectarse como gas o generarse in situ. Eficaz contra compuestos aromáticos.</p>
+                    <div class="formula">
+                        O₃ + C₆H₆ → Productos intermedios → CO₂ + H₂O
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aplicación en Campo -->
+    <section id="aplicacion" class="section">
+        <div class="content">
+            <h2>Métodos de Aplicación</h2>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-tint"></i>
+                    <h3>Inyección Directa</h3>
+                    <p>Uso de pozos de inyección o geopunts para introducir el oxidante en la zona contaminada.</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-spray-can"></i>
+                    <h3>Inyección a Baja Presión</h3>
+                    <p>Para mejorar la distribución en formaciones de baja permeabilidad.</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-compress-arrows-alt"></i>
+                    <h3>Inyección a Alta Presión</h3>
+                    <p>Crea fracturas hidráulicas para mejorar la distribución en formaciones densas.</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-recycle"></i>
+                    <h3>Recirculación</h3>
+                    <p>Extracción, mezcla con oxidante y reinyección del agua subterránea.</p>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <h3>Consideraciones de Diseño</h3>
+                <p>La dosis de oxidante típicamente varía entre 0.5% y 5% en peso de suelo o 5-50 g/L de agua subterránea, dependiendo de la demanda de oxidante del medio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventajas y Limitaciones -->
+    <section id="ventajas" class="section highlight-section">
+        <div class="content">
+            <h2>Ventajas y Limitaciones</h2>
+            
+            <div class="comparison">
+                <div class="pros">
+                    <h3><i class="fas fa-check-circle"></i> Ventajas Técnicas</h3>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Destrucción completa de contaminantes (no solo transferencia de fase).</li>
+                        <li><i class="fas fa-check"></i> Tratamiento in situ con mínima alteración del sitio.</li>
+                        <li><i class="fas fa-check"></i> Tiempos de tratamiento relativamente cortos (semanas a meses).</li>
+                        <li><i class="fas fa-check"></i> Efectivo contra una amplia gama de COVs, COPs y explosivos.</li>
+                    </ul>
+                </div>
+                
+                <div class="cons">
+                    <h3><i class="fas fa-exclamation-triangle"></i> Limitaciones</h3>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-times"></i> Alta demanda de oxidante en suelos con alto contenido orgánico.</li>
+                        <li><i class="fas fa-times"></i> Puede generar subproductos tóxicos si no se controla adecuadamente.</li>
+                        <li><i class="fas fa-times"></i> Efectos adversos en la microbiota del suelo.</li>
+                        <li><i class="fas fa-times"></i> Dificultades en suelos heterogéneos o de baja permeabilidad.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Pie de Página -->
+ <footer>
+    <div class="content">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Operaciones Unitarias Químicas</h3>
+                <p>para Tratamientos de Suelo</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Operaciones</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="deshalogenacion.html">Deshalogenación</a></li>
+                        <li><a href="neutralizacion.html">Neutralización</a></li>
+                        <li><a href="lavado.html">Lavado</a></li>
+                        <li><a href="enjuague.html">Enjuague</a></li>
+                        <li><a href="isoco.html">ISCO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Operaciones Unitarias Químicas - PNF Sistemas de Calidad y Ambiente - Johana Garcia </p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

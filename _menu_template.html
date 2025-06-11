@@ -1,0 +1,20 @@
+<!-- Menú de Navegación -->
+<nav id="navbar">
+    <div class="nav-container">
+        <div class="logo">Operaciones Unitarias</div>
+        <button class="mobile-menu-btn" aria-label="Menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html" class="{% if page == 'index' %}active{% endif %}">Inicio</a></li>
+            <li><a href="deshalogenacion.html" class="{% if page == 'deshalogenacion' %}active{% endif %}">Deshalogenación</a></li>
+            <li><a href="neutralizacion.html" class="{% if page == 'neutralizacion' %}active{% endif %}">Neutralización</a></li>
+            <li><a href="lavado.html" class="{% if page == 'lavado' %}active{% endif %}">Lavado</a></li>
+            <li><a href="enjuague.html" class="{% if page == 'enjuague' %}active{% endif %}">Enjuague</a></li>
+            <li><a href="isoco.html" class="{% if page == 'isoco' %}active{% endif %}">ISCO</a></li>
+            <li><a href="casos-estudio.html" class="{% if page == 'casos-estudio' %}active{% endif %}">Casos de Estudio</a></li>
+        </ul>
+    </div>
+</nav>
